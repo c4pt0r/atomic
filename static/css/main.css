@@ -1,0 +1,77 @@
+.posts .posts-group {
+  width: 100%;
+  border-spacing: 0;
+}
+.post {
+  font-size: 17px;
+  padding: 10px 0;
+  height: 50px;
+  vertical-align: top;
+}
+.user-with-tooltip {
+  width: 40px;
+  position: relative;
+}
+.post-url {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.post-tagline {
+  font-size: 16px;
+  color: #999999;
+}
+.upvote {
+  width: 30px;
+  text-align: center;
+}
+.upvote-link {
+  position: relative;
+  bottom: 10px;
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-bottom: 12px solid #bbbbbb;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 12px solid transparent;
+}
+.upvote .vote-count {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  bottom: 10px;
+}
+.url {
+  padding-top: 5px;
+}
+.user-image {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+a {
+  color: #669933;
+  text-decoration: none;
+}
+.post-actions {
+  font-size: 13px;
+  color: #bbbbbb;
+}
+
+.date {
+  color: #bbbbbb;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
